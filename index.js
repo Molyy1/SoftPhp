@@ -25,7 +25,7 @@ app.post("/upload", upload.single("file"), (req, res) => {
 
   res.json({
     success: true,
-    url: `http://localhost:${port}/raw/${name}`
+    url: `https://paste-h5f2.onrender.com/raw/${name}`
   });
 });
 
